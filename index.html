@@ -192,6 +192,7 @@ img{display:block;max-width:100%}
 .lang{display:flex;align-items:center;gap:6px;font-family:var(--mono);font-size:18px;line-height:1;text-transform:uppercase;color:var(--muted);flex:none}
 .lang a{color:var(--muted);transition:color .2s}
 .lang a:hover,.lang a[aria-current]{color:var(--ink)}
+@media (min-width:1001px){.lang{position:relative;top:2px}} /* baseline-align with nav links */
 /* image rows */
 .rows{display:flex;flex-direction:column;gap:20px}
 .row{display:grid;gap:20px;grid-template-columns:repeat(var(--n),1fr);align-items:start}
